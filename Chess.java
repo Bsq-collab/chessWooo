@@ -6,6 +6,8 @@ public class Chess{
 
     public Chess(){
 	board= new String[8][8];
+	setUpWhites();
+	setUpBlacks();
 	whitePieces={{"rook","knight","bishop","queen","king","bishop","knight","rook"},
 		     {"pawn","pawn","pawn","pawn","pawn","pawn","pawn","pawn"}};
 	blackPieces={ {"rook","knight","bishop","queen","king","bishop","knight","rook"},
