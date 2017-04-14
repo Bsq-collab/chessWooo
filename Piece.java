@@ -6,5 +6,6 @@ public abstract class Piece{
 	isWhite=isW;//if isW is true then the thing is white.
 	alive=true;
     }
+    // public abstract void move();
     
 }
